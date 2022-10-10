@@ -6,8 +6,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-header {
-  display: inline-block;
+nav {
+  display: flex;
 }
 
 h1 {
@@ -17,6 +17,14 @@ h1 {
 
 h2 {
   padding-left: 50px;
+}
+
+nav li {
+  text-align: right;
+  list-style-type: none;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
