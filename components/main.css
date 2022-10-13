@@ -1,0 +1,13 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image {
+  height: 70vh;
+  width: 40vh;
+}
+
+img {
+  border-radius: 40px;
+}
