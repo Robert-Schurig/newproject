@@ -1,7 +1,8 @@
-@import url();
+@import "components/main.css";
 
 :root {
   background-color: lightgrey;
+  box-sizing: border-box;
 }
 
 body {
