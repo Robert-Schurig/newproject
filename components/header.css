@@ -20,7 +20,7 @@ header::before {
 }
 
 h1 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   padding-left: 15px;
   position: relative;
 }
@@ -29,13 +29,13 @@ ul {
   padding-bottom: 10px;
   padding-right: 15px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .button {
   background-color: rgb(207, 48, 48);
   font-size: 20px;
   border-radius: 100px;
-  /* border: none; */
 }
 
 .button:hover {

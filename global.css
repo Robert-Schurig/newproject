@@ -4,7 +4,7 @@
 
 body {
   display: block;
-  width: 40%; /* Legt die Breite des Blocks mit Content fest.*/
+  width: 50%; /* Legt die Breite des Blocks mit Content fest.*/
   font-family: "Open Sans", sans-serif;
   margin: 0 auto; /* Zieht den Content in die Mitte */
   background-color: lightgrey;
