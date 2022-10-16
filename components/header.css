@@ -3,24 +3,36 @@ header {
   justify-content: space-between;
   height: 150px;
   align-items: flex-end;
+  position: relative;
+  /* border-radius: 20px; */
+}
+
+header::before {
+  content: "";
   background-image: url("../assets/code-3637299_960_720.jpeg");
-  filter: contrast(50%);
-  border-radius: 20px;
-}
-
-ul {
-  padding-bottom: 10px;
-  padding-right: 30px;
-}
-
-nav {
-  display: flex;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
 }
 
 h1 {
   text-decoration: underline;
   padding-left: 30px;
-  filter: contrast(100%);
+  position: relative;
+}
+
+ul {
+  padding-bottom: 10px;
+  padding-right: 30px;
+  position: relative;
+}
+
+nav {
+  display: flex;
 }
 
 nav li {
